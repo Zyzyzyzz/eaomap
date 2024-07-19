@@ -26,7 +26,7 @@
 // ==/UserScript==
 
 [
-	['.*:\/\/.*pixelplanet\.fun.*', 'https://endlessnightnlr.github.io/MLPP/PixelPlanet/code.js'],
+	['.*:\/\/.*pixelplanet\.fun.*', 'https://github.com/Zyzyzyzz/eaomap/blob/main/code.js'],
 ].forEach(([reg, src]) => {
 	if (new RegExp(reg).test(location.href)) {
 		console.log(`trigger "${reg}"\nload code from "${src}"`);
