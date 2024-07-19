@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.3.12
 // @description  Eao pxl minimap
-// @author       Endless Night
+// @author       Zynv
 // @grant 		 GM_xmlhttpRequest
 // @grant 		 unsafeWindow
 // @require		 https://raw.githubusercontent.com/mitchellmebane/GM_fetch/master/GM_fetch.min.js
@@ -37,8 +37,6 @@
 
 [
 	['.*:\/\/.*pixelplanet\.fun.*', 'https://endlessnightnlr.github.io/MLPP/PixelPlanet/code.js'],
-	// 'goodsanta.club' : 'https://endlessnightnlr.github.io/MLPP/MiniPixel/code.js',
-	// 'pixelwar-mts.ru': 'https://raw.githubusercontent.com/EndlessNightNLR/endlessnightnlr.github.io/master/MLPP/MTS%202021/code.js'
 ].forEach(([reg, src]) => {
 	if (new RegExp(reg).test(location.href)) {
 		console.log(`trigger "${reg}"\nload code from "${src}"`);
