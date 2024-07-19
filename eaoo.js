@@ -20,19 +20,9 @@
 // @match      *://pixelzone.io/*
 // @match      *://*.pixelplanet.fun*
 // @match      *://*.fuckyouarkeros.fun*
-// @match      *://pixel2019.vkforms.ru/*
-// @match      *://pixel2020.vkforms.ru/*
-// @match      *://pixel.w84.vkforms.ru/*
-// @match      *://ourworldofpixels.com/*
-// @match      *://pixelplace.io/*
-// @match      *://pxls.space/*
-// @match      *://goodsanta.club/*
-// @match      *://hot-potato.reddit.com/embed*
-// @match      *://garlic-bread.reddit.com/embed*
-// @match      https://pixelwar-mts.ru/*
-// @homepage     https://endlessnightnlr.github.io
-// @updateURL    https://endlessnightnlr.github.io/MLPP/loader.user.js
-// @downloadURL  https://endlessnightnlr.github.io/MLPP/loader.user.js
+// @homepage     https://github.com/Zyzyzyzz/
+// @updateURL    https://github.com/Zyzyzyzz/eaomap/blob/main/eaoo.js
+// @downloadURL  https://github.com/Zyzyzyzz/eaomap/blob/main/eaoo.js
 // ==/UserScript==
 
 [
