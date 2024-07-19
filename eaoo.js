@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         MLP Pixel Minimap Loader
+// @name         Eao pixel minimap
 // @namespace    http://tampermonkey.net/
 // @version      1.3.12
-// @description  MLP Pixel Minimap
+// @description  Eao pxl minimap
 // @author       Endless Night
 // @grant 		 GM_xmlhttpRequest
 // @grant 		 unsafeWindow
@@ -36,17 +36,7 @@
 // ==/UserScript==
 
 [
-	['https://garlic-bread.reddit.com/embed*', 'https://endlessnightnlr.github.io/MLPP/rplace/code.js'],
-	['https://prod-app*', 'https://endlessnightnlr.github.io/MLPP/pb/code.js'],
-	['.*:\/\/pixelzone\.io.*', 'https://Autumn-Blaze.github.io/Son.js'],
 	['.*:\/\/.*pixelplanet\.fun.*', 'https://endlessnightnlr.github.io/MLPP/PixelPlanet/code.js'],
-	['.*:\/\/.*fuckyouarkeros\.fun.*', 'https://endlessnightnlr.github.io/MLPP/PixelPlanet/code.js'],
-	// 'pixel2019.vkforms.ru' : 'https://endlessnightnlr.github.io/MLPP/pb/code.js',
-	// 'pixel2020.vkforms.ru' : 'https://endlessnightnlr.github.io/MLPP/pb/code.js',
-	// 'pixel.w84.vkforms.ru' : 'https://endlessnightnlr.github.io/MLPP/pb/code.js',
-	['.*:\/\/ourworldofpixels\.com.*', 'https://endlessnightnlr.github.io/MLPP/OWOP/code.js'],
-	['.*:\/\/pixelplace\.io.*', 'https://endlessnightnlr.github.io/MLPP/PixelPlace/code.js'],
-	['.*:\/\/pxls\.space.*', 'https://endlessnightnlr.github.io/MLPP/PxlsSpace/code.js'],
 	// 'goodsanta.club' : 'https://endlessnightnlr.github.io/MLPP/MiniPixel/code.js',
 	// 'pixelwar-mts.ru': 'https://raw.githubusercontent.com/EndlessNightNLR/endlessnightnlr.github.io/master/MLPP/MTS%202021/code.js'
 ].forEach(([reg, src]) => {
